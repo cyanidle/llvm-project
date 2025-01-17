@@ -93,7 +93,7 @@ public :
           name += string(ns->getName()) + "::";
         }
         name += string(baseDecl->getName());
-        generated += "    PARENT(" + name + ");\n";
+        generated += "    IFACE_PARENT(" + name + ");\n";
       }
     }
   }
